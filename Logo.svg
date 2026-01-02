@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="156px" height="93px" viewBox="0 0 156 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <radialGradient cx="28.9813702%" cy="31.7518029%" fx="28.9813702%" fy="31.7518029%" r="55.8875511%" gradientTransform="translate(0.2898, 0.3175), rotate(46.902), scale(1, 1.0003), translate(-0.2898, -0.3175)" id="radialGradient-1">
+            <stop stop-color="#FFF3EE" offset="0%"></stop>
+            <stop stop-color="#C2103E" offset="30.7501093%"></stop>
+            <stop stop-color="#5A1D1A" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#B72D76" offset="0%"></stop>
+            <stop stop-color="#F7C0DD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page" transform="translate(-642, -162)" fill="url(#radialGradient-1)" stroke="url(#linearGradient-2)">
+            <g id="Group" transform="translate(642, 162)">
+                <circle id="Oval" stroke-width="3" cx="78.5" cy="46.5" r="45"></circle>
+                <circle id="Oval-Copy" cx="10.5" cy="45.5" r="10"></circle>
+                <circle id="Oval-Copy-2" cx="145.5" cy="45.5" r="10"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

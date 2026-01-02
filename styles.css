@@ -1,0 +1,221 @@
+html,body{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	/*background-color: #E5EBEE;*/
+}
+
+
+@font-face {
+    font-family:'Helvetica Light';
+	src: url('../fonts/Helvetica Light.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family:'Helvetica';
+	src: url('../fonts/Helvetica Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family:'Helvetica';
+	src: url('../fonts/Helvetica.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.Cadmium{
+	width:1440px;
+	margin: 0 auto;
+	color: #5A4C4C;
+}
+
+.Cadmium .Logo{
+	width: 300px;
+	margin: 250px auto 160px auto;
+}
+
+.Cadmium svg{
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+}
+
+.Cadmium .Logo a {
+	text-decoration: none;
+}
+
+.Cadmium .Logo strong{
+	display: block;
+	text-align: center;
+	font-size: 48px;
+	letter-spacing: -2.55px;
+	color:#BF103D;
+	width: 300px;
+}
+
+.Cadmium .intro{
+	margin: 240px 0;
+}
+
+.Cadmium h1 {
+	font-size: 66px;
+	letter-spacing: -3.55px;
+	width: 650px;
+	margin-bottom: 10px;
+}
+
+.Cadmium h1 em {
+	font-style: normal;
+	text-decoration: underline;
+}
+
+.Cadmium h2 {
+	font-size: 32px;
+	letter-spacing: -1.6px;
+	width: 650px;
+	margin-bottom: 180px;
+}
+
+.Cadmium main {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	gap: 12px;
+	width: 100%;
+	max-width: 1440px;
+	margin: 160px auto 0 auto;
+	padding: 0 1rem;
+}
+
+.Cadmium main section svg {
+	height: 200px;
+	display: block;
+}
+
+.Cadmium main section:nth-child(1) {
+	grid-column-start: 1; 
+    grid-column-end: span 3;
+}
+
+.Cadmium main section:nth-child(2) {
+	grid-column-start: 4; 
+    grid-column-end: span 3;
+}
+
+.Cadmium main section:nth-child(3) {
+	grid-column-start: 7; 
+    grid-column-end: span 3;
+}
+
+.Cadmium main section:nth-child(4) {
+	grid-column-start: 10; 
+    grid-column-end: span 3;
+}
+
+.Cadmium main section h3{
+	font-size: 24px;
+	letter-spacing: -1.28px;
+	text-decoration: underline;
+}
+
+.Cadmium main section p{
+	font-size: 16px;
+	letter-spacing: -.85px;
+	padding: 0 30px 0 0px;
+}
+
+.explanation{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	gap: 12px;
+	width: 100%;
+	max-width: 1440px;
+	margin: 370px auto 370px auto;	
+}
+
+.explanation p {
+	font-size: 22px;
+	letter-spacing: -1.77px;
+	margin: 0;
+	grid-column-start: 1; 
+    grid-column-end: span 6;
+}
+
+.list h4 {
+	margin:0;
+	grid-column-start: 1; 
+    grid-column-end: span 4;
+    font-size:50px;
+    letter-spacing: -2.66px;
+    display:inline-block;
+    margin: 0 0 20px 0;
+}
+
+.list ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.list ul li {
+	background-color: #272323;
+	display: inline-block;
+	font-size:30px;
+	letter-spacing: -1.6px;
+	font-weight: 600;
+	padding: 5px 8px 5px 8px;
+	margin: 0 0 5px 0;
+}
+
+.list ul li.red {
+	color:#DA2956;
+}
+
+.list ul li.green {
+	color:#9DDA29;
+}
+
+.list ul li.blue {
+	color:#29A7DA;
+}
+
+.list ul li.orange {
+	color:#da9229;
+}
+
+.list ul li.purple {
+	color:#6f5de5;
+}
+
+.mail{
+	width: 400px;
+	margin: 200px auto;
+}
+
+.mail p{
+	font-size: 16px;
+	letter-spacing: -.85px;
+}
+
+.mail a {
+	font-size: 28px;
+	letter-spacing: -1.49px;
+	font-weight: 600;
+	background-color: #272323;
+	color:#DA2956;
+	padding: 5px;
+}
