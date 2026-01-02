@@ -1,439 +1,221 @@
-
-@font-face{
-    font-family: 'Helvetica';
-    src: url('../fonts/Helvetica.ttf');
-}
-
-@font-face{
-    font-family: 'Helvetica-Bold';
-    src: url('../fonts/Helvetica-Bold.ttf');
-}
-
-@font-face{
-    font-family: 'Helvetica-Light';
-    src: url('../fonts/Helvetica-Light.ttf');
-}
-
 html,body{
     margin:0;
-    padding:0;
-    font-family: 'Helvetica';
-    overflow-x: hidden;
+    padding: 0;
 }
 
-.box {
-  color: white;
-  padding: 10px;
-  background: lightgoldenrodyellow;
-  text-align: center;
+body{
+    /*background-color: #E5EBEE;*/
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 12px;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-  /*height:100%;*/
+
+@font-face {
+    font-family:'Helvetica Light';
+    src: url('../fonts/Helvetica Light.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
 }
 
-.screen1 {
-    position: relative;
-    background: black;
+@font-face {
+    font-family:'Helvetica';
+    src: url('../fonts/Helvetica Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
 }
 
-.FLuXLogo{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin: -121px 0 0 -301px;
+@font-face {
+    font-family:'Helvetica';
+    src: url('../fonts/Helvetica.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
 }
 
-.screen2 {
-    font-family: "Helvetica-Light";
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.Cadmium{
+    width:1440px;
+    margin: 0 auto;
+    color: #5A4C4C;
+}
+
+.Cadmium .Logo{
+    width: 300px;
+    margin: 250px auto 160px auto;
+}
+
+.Cadmium svg{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.Cadmium .Logo a {
+    text-decoration: none;
+}
+
+.Cadmium .Logo strong{
+    display: block;
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: -2.55px;
+    color:#BF103D;
+    width: 300px;
+}
+
+.Cadmium .intro{
+    margin: 240px 0;
+}
+
+.Cadmium h1 {
+    font-size: 66px;
+    letter-spacing: -3.55px;
+    width: 650px;
+    margin-bottom: 10px;
+}
+
+.Cadmium h1 em {
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.Cadmium h2 {
+    font-size: 32px;
+    letter-spacing: -1.6px;
+    width: 650px;
+    margin-bottom: 180px;
+}
+
+.Cadmium main {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 12px;
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1440px;
+    margin: 160px auto 0 auto;
     padding: 0 1rem;
-    font-size:14px;
-    letter-spacing: -0.47px;
-    margin-bottom: 200px;
 }
 
-.FLuxWebOSLogo{
-    grid-column-start: 1;
-    grid-column-end: span 12;
-    margin: 100px auto 50px auto;
-    margin-left: 350px;
+.Cadmium main section svg {
+    height: 200px;
+    display: block;
 }
 
-.screen2 .col1 h1{
-    font-size: 28px;
-    letter-spacing: -.95px;
-    font-family: "Helvetica";
-    color: rgb(103, 198, 247);
-}
-
-.screen2 .col1{
-    grid-column-start: 2; 
+.Cadmium main section:nth-child(1) {
+    grid-column-start: 1; 
     grid-column-end: span 3;
 }
 
-.screen2 .col2{
-    grid-column-start: 6; 
+.Cadmium main section:nth-child(2) {
+    grid-column-start: 4; 
     grid-column-end: span 3;
-    margin: 55px 0 0 0;
 }
 
-.screen2 .col3{
+.Cadmium main section:nth-child(3) {
+    grid-column-start: 7; 
+    grid-column-end: span 3;
+}
+
+.Cadmium main section:nth-child(4) {
     grid-column-start: 10; 
     grid-column-end: span 3;
-    margin: 55px 0 0 0;
 }
 
-strong {
-    font-family: "Helvetica-Bold";
+.Cadmium main section h3{
+    font-size: 24px;
+    letter-spacing: -1.28px;
+    text-decoration: underline;
 }
 
-.screen3{
-    font-family: "Helvetica-Light";
+.Cadmium main section p{
+    font-size: 16px;
+    letter-spacing: -.85px;
+    padding: 0 30px 0 0px;
+}
+
+.explanation{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 12px;
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-    font-size:14px;
-    letter-spacing: -0.47px;
-    margin-bottom: 200px;    
+    max-width: 1440px;
+    margin: 370px auto 370px auto;  
 }
 
-.screen3 h1 {
-    font-family: "Helvetica-Bold";
-    font-size: 128px;
-    letter-spacing: -8.32px;
-    margin-bottom: 0;
-    color: rgb(103, 198, 247);
-}
-
-.screen3 h2 {
-    font-family: "Helvetica-Light";
-    font-style: italic;
-    font-size: 128px;
-    letter-spacing: -8.32px;
-    margin-bottom: 0;
-    margin-top: 0;
-    color: rgb(103, 198, 247);
-}
-
-.screen3 .row1{
-    grid-row-start: 1; 
-    grid-row-end: 6;
-    grid-column-start: 2; 
-    grid-column-end: span 12;
-}
-
-.screen3 .row2{
-    grid-row-start: 7;
-    grid-row-end: 10;
-    grid-column-start: 2; 
-    grid-column-end: span 12;
-}
-
-.screen3 .col1{
-    grid-column-start: 2; 
-    grid-column-end: span 4;
-}
-
-.screen3 .col2{
-    grid-column-start: 7; 
-    grid-column-end: span 4;
-}
-
-.screen4{
-    font-family: "Helvetica-Light";
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 12px;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-    font-size:14px;
-    letter-spacing: -0.47px;
-    margin-bottom: 200px;
-    grid-row-gap: 150px;
-}
-
-.screen4 h1{
-    font-family: "Helvetica-Bold";
-    font-size: 68px;
-    letter-spacing: -4.42px;
-    color: rgb(103, 198, 247);
-}
-
-.screen4 .row1{
-    grid-row-start: 1; 
-    grid-row-end: 2;
-    grid-column-start: 2; 
-    grid-column-end: span 12;
-}
-
-.screen4 .row2{
-    grid-row-start: 2; 
-    grid-row-end: 3;
-    grid-column-start: 2; 
-    grid-column-end: span 12;
-
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 12px;
-    width: 100%;
-    max-width: 1200px;
-}
-
-.screen4 .row2 .leftCol{
-    grid-column-start: 2;
-    grid-column-end: span 5;
-}
-
-.screen4 .row2 h2,.screen4 .row3 h2,.screen4 .row4 h2,.screen4 .row5 h2,.screen4 .row6 h2,.screen4 .row7 h2,.screen4 .row8 h2 {
-    font-family: "Helvetica-Bold";
-    font-size: 28px;
-    letter-spacing: -.95px;
-    color: rgb(103, 198, 247);
-}
-
-.screen4 .row2 .rightCol{
-    grid-column-start: 8;
-    grid-column-end: span 12;
-}
-
-.screen4 .row3{
-    grid-row-start: 3; 
-    grid-row-end: 4;
-    grid-column-start: 2; 
-    grid-column-end: span 12;
-
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 12px;
-    width: 100%;
-    max-width: 1200px;
-}
-
-.screen4 .row3 .leftCol{
-    grid-column-start: 2;
-    grid-column-end: span 3;
-}
-
-.screen4 .row3 .rightCol{
-    grid-column-start: 5;
-    grid-column-end: span 4;
-}
-
-.screen4 .row4{
-    grid-row-start: 4; 
-    grid-row-end: 5;
-    grid-column-start: 2; 
-    grid-column-end: span 12;
-
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 12px;
-    width: 100%;
-    max-width: 1200px;
-}
-
-.screen4 .row4 .leftCol{
-    grid-column-start: 2;
-    grid-column-end: span 5;
-}
-
-.screen4 .row4 .rightCol{
-    grid-column-start: 8;
-    grid-column-end: span 12;
-}
-
-.screen4 .row5{
-    grid-row-start: 5; 
-    grid-row-end: 6;
-    
-    grid-column-start: 2; 
-    grid-column-end: span 12;
-
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 12px;
-    width: 100%;
-    max-width: 1200px;
-}
-
-.screen4 .row5 .leftCol{
-    grid-column-start: 2;
-    grid-column-end: span 3;
-}
-
-.screen4 .row5 .rightCol{
-    grid-column-start: 5;
-    grid-column-end: span 4;
-}
-
-.screen4 .row6{
-    grid-row-start: 6; 
-    grid-row-end: 7;
-    grid-column-start: 2; 
-    grid-column-end: span 12;
-
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 12px;
-    width: 100%;
-    max-width: 1200px;
-}
-
-.screen4 .row6 .leftCol{
-    grid-column-start: 2;
-    grid-column-end: span 5;
-}
-
-.screen4 .row6 .rightCol{
-    grid-column-start: 8;
-    grid-column-end: span 12;
-}
-
-.screen4 .row7{
-    grid-row-start: 7; 
-    grid-row-end: 8;
-    grid-column-start: 2; 
-    grid-column-end: span 12;
-
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 12px;
-    width: 100%;
-    max-width: 1200px;
-}
-
-.screen4 .row7 .leftCol{
-    grid-column-start: 2;
-    grid-column-end: span 3;
-}
-
-.screen4 .row7 .rightCol{
-    grid-column-start: 5;
-    grid-column-end: span 4;
-}
-
-.screen5{
-    background: url("../images/screen5.png");
-    width:1600px;
-    height:1080px;
-    background-position: left bottom;
-    background-size: cover;
-
-    font-family: "Helvetica-Light";
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 12px;
-    width: 100%;
-    max-width: 100%;
-
-    margin: 0 auto;
-    padding: 0 1rem;
-}
-
-.screen5 .row1{
-    grid-column-start: 3;
-    grid-column-end: span 4;
-}
-
-.screen5 .row1 h1{
-    color: rgb(103, 198, 247);
-    font-family: "Helvetica-Bold";
-    font-size:68px;
-    margin-bottom: 0;
-}
-
-.screen5 .row2{
-    grid-column-start: 8;
-    grid-column-end: span 10;
-
-    grid-row-start: 2;
-    grid-row-end: 12;
-}
-
-.screen5 .row3{
-    grid-column-start: 6;
-    grid-column-end: span 10;
-
-    grid-row-start: 5;
-    grid-row-end: 12;
-}
-
-.screen5 .row4{
-    grid-column-start: 8;
-    grid-column-end: 12;
-
-    grid-row-start: 8;
-    grid-row-end: 12;
-}
-
-.screen5 .row2 h2, .screen5 .row3 h2, .screen5 .row4 h2{
-    letter-spacing : -2.16;
-    font-size: 64px;
-    font-family: "Helvetica-Bold";
-    margin-bottom: 0;
-    color:rgb(103, 198, 247);
-}
-
-.screen5 .row2 h3, .screen5 .row3 h3, .screen5 .row4 h3{
-    font-family: "Helvetica-Light";
-    font-size:36px;
+.explanation p {
+    font-size: 22px;
+    letter-spacing: -1.77px;
     margin: 0;
+    grid-column-start: 1; 
+    grid-column-end: span 6;
 }
 
-.screen6{
-    background: url("../images/screen6.png");
-    width:1600px;
-    height:1080px;
-    background-position: 0 0;
-    background-size: cover;
-
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 12px;
-    width: 100%;
-    max-width: 100%;
+.list h4 {
+    margin:0;
+    grid-column-start: 1; 
+    grid-column-end: span 4;
+    font-size:50px;
+    letter-spacing: -2.66px;
+    display:inline-block;
+    margin: 0 0 20px 0;
 }
 
-.screen6 p{
-    line-height: 22px;
-    font-family: "Helvetica-Light";
+.list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.screen6 .row1{
-    grid-column-start: 3;
-    grid-column-end: span 3;
-
-    grid-row-start: 2;
-    grid-row-end: 12;
+.list ul li {
+    background-color: #272323;
+    display: inline-block;
+    font-size:30px;
+    letter-spacing: -1.6px;
+    font-weight: 600;
+    padding: 5px 8px 5px 8px;
+    margin: 0 0 5px 0;
 }
 
-.screen6 strong{
-    font-size: 60px;
+.list ul li.red {
+    color:#DA2956;
 }
 
-.screen6 strong cite{
-    font-weight: normal;
-    font-style: normal;
-    font-family: "Helvetica-Light";
-    margin-left: 10px;
+.list ul li.green {
+    color:#9DDA29;
 }
 
+.list ul li.blue {
+    color:#29A7DA;
+}
+
+.list ul li.orange {
+    color:#da9229;
+}
+
+.list ul li.purple {
+    color:#6f5de5;
+}
+
+.mail{
+    width: 400px;
+    margin: 200px auto;
+}
+
+.mail p{
+    font-size: 16px;
+    letter-spacing: -.85px;
+}
+
+.mail a {
+    font-size: 28px;
+    letter-spacing: -1.49px;
+    font-weight: 600;
+    background-color: #272323;
+    color:#DA2956;
+    padding: 5px;
+}
